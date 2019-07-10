@@ -3,7 +3,7 @@
 {
     // AでもBでも良い、という柔軟な型が定義できる
     // 生まれの年は数字か文字列
-    let birthYear = number | string;
+    let birthYear: number | string;
 
     // 正常
     birthYear = 1980;

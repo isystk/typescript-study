@@ -9,6 +9,7 @@
 
     // 一番手抜きな型付け: any
     function someFunction(opts: any) {
-      console.log(opts.debug); // debugがあるかどうかチェックしないのでエラーにならない
+        console.log(opts.debug); // debugがあるかどうかチェックしないのでエラーにならない
     }
+    someFunction({debug: 'hoge'});
 }
