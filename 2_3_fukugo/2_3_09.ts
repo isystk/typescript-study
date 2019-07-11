@@ -2,6 +2,7 @@
 
 // オブジェクト
 {
+    // key と value がセットになったデータの集合
     // 配列は要素へのアクセス方法がインデックス（数値）でしたが、オブジェクトの場合は文字列です。
     const key = 'favorite drink';
     const smallAnimal = {

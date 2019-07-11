@@ -1,5 +1,6 @@
 // 基本的な型付け
 
+// any型 と unknown型
 // 未知の型: unknown
 {
     var one: any = 1;

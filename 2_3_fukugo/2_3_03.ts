@@ -1,7 +1,7 @@
 // 複合型
 
+// 配列からのデータの取り出し
 {
-    // 配列からのデータの取り出し
     const smalls = [
         "小動物",
         "小型車",
@@ -14,7 +14,6 @@
     var other = smalls.slice(1);
 }
 {
-    // 配列からのデータの取り出し
     const smalls = [
         "小動物",
         "小型車",
@@ -24,4 +23,5 @@
     const [smallAnimal, smallCar, essay] = smalls;
     // 新: 2番目以降の要素の取り出し
     const [, ...other] = smalls;
+    console.log(other);
 }

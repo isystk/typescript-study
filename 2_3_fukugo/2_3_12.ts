@@ -20,12 +20,6 @@
         }
     }
 
-    // 旧: Object.assign()を使ってコピー
-    const copy2 = Object.assign({}, smallAnimal);
-
-    // 新: スプレッド構文でコピー
-    const copy3 = {...smallAnimal};
-
     // 最古: オブジェクトをマージ
     var merged = {};
     for (var key1 in smallAnimal) {
@@ -39,8 +33,14 @@
         }
     }
 
+    // 旧: Object.assign()を使ってコピー
+    const copy2 = Object.assign({}, smallAnimal);
+
     // 旧: Object.assign()を使ってオブジェクトをマージ
     const merged2 = Object.assign({}, smallAnimal, attributes);
+
+    // 新: スプレッド構文でコピー
+    const copy3 = {...smallAnimal};
 
     // 新: スプレッド構文でマージ
     const merged3 = {...smallAnimal, ...attributes};

@@ -20,4 +20,7 @@
         console.log(i, value);
     }
     // 要素のみ欲しいときは for (const value of iterable)
+    for (const value of iterable) {
+        console.log(value);
+    }
 }
